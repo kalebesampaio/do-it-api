@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import { AppError } from "../errors/AppError";
 import taskRepository from "../repositories/task.repository";
 
-export const commentOwner = async (
+export const taskOwner = async (
   req: Request,
   res: Response,
   next: NextFunction
