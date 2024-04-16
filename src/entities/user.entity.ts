@@ -12,7 +12,7 @@ import { Task } from "./task.entity";
   @Entity("users")
   export class User {
     @PrimaryGeneratedColumn("increment")
-    id: string;
+    id: number;
   
     @Column({ length: 150 })
     name: string;
